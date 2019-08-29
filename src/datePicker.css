@@ -60,11 +60,11 @@
   transform-origin: 0 bottom;
 }
 
-.mf-picker .mf-picker-panel .mf-picker-choose .cancel {
+.mf-picker .mf-picker-panel .mf-picker-choose .mf-cancel {
   left: 0;
 }
 
-.mf-picker .mf-picker-panel .mf-picker-choose .confirm {
+.mf-picker .mf-picker-panel .mf-picker-choose .mf-confirm {
   right: 0;
   color: #fc9153;
 }
@@ -78,8 +78,8 @@
   color: #333;
 }
 
-.mf-picker .mf-picker-panel .mf-picker-choose .cancel,
-.mf-picker .mf-picker-panel .mf-picker-choose .confirm {
+.mf-picker .mf-picker-panel .mf-picker-choose .mf-cancel,
+.mf-picker .mf-picker-panel .mf-picker-choose .mf-confirm {
   position: absolute;
   top: 6px;
   padding: 16px;
