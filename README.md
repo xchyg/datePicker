@@ -31,7 +31,9 @@ datePicker({
     callBack: function(timeStr, timeStamp) { // 点击确认获取到的时间戳和时间字符串
         console.log(timeStr, timeStamp)
     }
-})
+});
+
+$('.mf-picker').hide(); // 需要隐藏请在初始化之后操作. TODO 在 datePicker 初始化前隐藏日期项旋转角度会有问题
  ```
 点击确认之后，回到函数callback可以拿到选择的时间字符串和时间戳。
 
